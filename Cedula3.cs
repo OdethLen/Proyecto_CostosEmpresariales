@@ -55,7 +55,8 @@ namespace Proyecto_F._Costos_Empresariales
             {
                 double invFinal = Convert.ToDouble(txtCostoTIF.Text);
                 ObtainedData.TotalInvFinal = invFinal;
-
+                frmCedula4 frmCedula4 = new frmCedula4();
+                frmCedula4.Show();
                 this.Close();
 
             }
